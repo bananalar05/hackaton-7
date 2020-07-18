@@ -132,13 +132,18 @@ h2, h4 {
 h2 {
   /*Tipografía*/
   font-size: 2.25rem;
-  letter-spacing: 0.04em;
   line-height: 2.5rem;
 }
 
 @media (max-width: 1100px) {
   h2 {
     padding-top: 20px;
+  }
+}
+
+@media (max-width: 530px) {
+  h2 {
+    font-size: 2rem;
   }
 }
 
@@ -260,6 +265,7 @@ section {
 @media (max-width: 530px) {
   .nav li {
     margin-left: 20px;
+    font-size: 1rem;
   }
 }
 
@@ -301,10 +307,6 @@ section {
 
 .search__bar::placeholder {
   color: #1F3F68;
-}
-
-.popular .popular-section__article {
-  padding-right: 20px;
 }
 
 .popular .popular-section__article .share a {

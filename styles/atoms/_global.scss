@@ -32,11 +32,14 @@ h2, h4{
 h2{
   /*Tipografía*/
   font-size: 2.25rem;
-  letter-spacing: 0.04em;
   line-height: 2.5rem;
 
   @include breakpoints(lg) {
     padding-top: 20px;
+  }
+
+  @include breakpoints(sm) {
+    font-size: 2rem;
   }
 }
 
