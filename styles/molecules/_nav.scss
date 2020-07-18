@@ -8,6 +8,11 @@
       margin-left: 20px;
       font-size: 1rem;
      }
+
+    @include breakpoints(xs) {
+      margin-left: 10px;
+      font-size: 1rem;
+     }
   }
 
   a {

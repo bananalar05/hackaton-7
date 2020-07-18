@@ -269,6 +269,13 @@ section {
   }
 }
 
+@media (max-width: 480px) {
+  .nav li {
+    margin-left: 10px;
+    font-size: 1rem;
+  }
+}
+
 .nav a {
   color: #1F3F68;
 }
