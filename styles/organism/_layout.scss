@@ -1,0 +1,38 @@
+.container{
+  max-width: 1000px;
+  margin: auto;
+  padding-top: 50px;
+
+  @include breakpoints(md) {
+    padding: 30px;
+  }
+
+  @include breakpoints(sm) {
+    padding-left: 30px;
+   }
+
+  @include breakpoints(xm) {
+    padding-left: 30px;
+  }
+}
+
+header{
+  padding: 40px 100px;
+
+  @include breakpoints(lg) {
+    padding: 20px;
+  }
+
+  @include breakpoints(sm) {
+    padding-left: 20px;
+  }
+
+  @include breakpoints(xs) {
+   padding-left: 20px;
+  }
+}
+
+footer{
+  width: 98%;
+  padding-bottom: 5px;
+}

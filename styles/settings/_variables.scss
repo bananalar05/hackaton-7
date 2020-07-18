@@ -1,0 +1,22 @@
+/*COLOR*/
+$color: (
+  primary: #1F3F68,
+  secondary: #356EAD,
+  tertiary: rgba(0, 0, 0, 0.6),
+  cuaternary: #FFFFFF,
+);
+
+/*FUENTE*/
+$f-family: (
+  primary: Helvetica,
+  secondary: arial,
+);
+
+/*BREAKPOINTS*/
+$breakpoints: (
+  lg: 1100px,
+  md: 1050px,
+  sm: 530px,
+  xs: 480px,
+);
+

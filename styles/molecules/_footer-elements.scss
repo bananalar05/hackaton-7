@@ -1,0 +1,46 @@
+.footer{
+  background-color: #316099; 
+  border-top-right-radius: 100px;
+
+  h2, h3, p, a, i {
+    color: map-get($color, cuaternary);
+  }
+
+  h3{
+    font-size: 1.2rem;
+
+    @include breakpoints(md) {
+      font-size: 1.4rem;
+    }
+  }
+
+  &__container{
+    padding-left: 10px;
+  }
+
+  li{
+    margin-bottom: 15px;
+  }
+
+  a{
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+
+  &__container-1 {
+
+    @include breakpoints(lg) {
+      display: block;
+      width: 100%;
+    }
+  }
+
+  &__container-2 {
+    
+    @include breakpoints(md) {
+      display: block;
+    }
+  }  
+}
+
